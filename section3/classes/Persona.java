@@ -3,16 +3,20 @@
 public class Persona {
 
     // Attributes.
-    private String nombre;
-    private short edad;
-    private char genero;
+    public String nombre;
+    public short edad;
+    public char genero;
 
     // Methods.
 
-    private void imprimirInfo(){
+    public void imprimirInfo(){
         System.out.println("Nombre: "+ this.nombre);
         System.out.println("Genero: "+ this.genero);
         System.out.println("Edad: "+ this.edad);
+    }
+
+    void jugarVideojuegos(Persona p){
+        System.out.println(this.nombre + " Esta jugando con: "+ p.nombre);
     }
 
 
