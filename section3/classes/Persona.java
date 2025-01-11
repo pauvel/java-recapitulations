@@ -7,6 +7,19 @@ public class Persona {
     public short edad;
     public char genero;
 
+    // Constructor.
+    Persona(){
+        System.out.println("Persona Initialized.");
+
+    }
+
+    Persona(String n, short e, char g){
+        System.out.println("Persona with 3 args Initialized.");
+        this.nombre = n;
+        this.edad = e;
+        this.genero = g;
+    }
+
     // Methods.
 
     public void imprimirInfo(){
