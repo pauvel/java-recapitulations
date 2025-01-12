@@ -14,6 +14,8 @@ public class Persona {
     }
 
     Persona(String n, short e, char g){
+        // Invoke Constructor.
+        this();
         System.out.println("Persona with 3 args Initialized.");
         this.nombre = n;
         this.edad = e;
@@ -23,6 +25,7 @@ public class Persona {
     // Methods.
 
     public void imprimirInfo(){
+        // Using this
         System.out.println("Nombre: "+ this.nombre);
         System.out.println("Genero: "+ this.genero);
         System.out.println("Edad: "+ this.edad);

@@ -24,6 +24,9 @@ public class Main {
 
         Persona persona3 = new Persona("Pedrito", (short)15, 'h');
         persona3.imprimirInfo();
+
+        // Inspecting String class.
+        String name = "JJ";
         
     }
 }
