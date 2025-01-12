@@ -9,13 +9,13 @@ public class Persona {
 
     // Constructor.
     Persona(){
+        this("Roblox", (short)80, 'm');
         System.out.println("Persona Initialized.");
-
     }
 
     Persona(String n, short e, char g){
         // Invoke Constructor.
-        this();
+//        this();
         System.out.println("Persona with 3 args Initialized.");
         this.nombre = n;
         this.edad = e;
