@@ -14,4 +14,9 @@ public class Employee extends Person{
         System.out.println(super.getPersonName() + " is working.");
     }
 
+    @Override
+    public void sleep(){
+        System.out.println(super.getPersonName() + " have work, so can't sleep.");
+    }
+
 }
