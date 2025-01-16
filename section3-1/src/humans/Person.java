@@ -22,4 +22,8 @@ public class Person {
         return this.personName;
     }
 
+    public final void breathe(){
+        System.out.println(this.personName + " is breathing");
+    }
+
 }
