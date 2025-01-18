@@ -15,5 +15,8 @@ public class MainEntry {
         ricky.eat();
         ricky.work();
 
+
+        // TODO: Protected modifier sample.
+
     }
 }
