@@ -1,6 +1,6 @@
 package geometric_shapes;
 
-public class Shape {
+public abstract class Shape {
     private final String TYPE;
     private String color;
 
@@ -20,8 +20,6 @@ public class Shape {
         return this.TYPE;
     };
 
-    public float area() {
-        return 0;
-    }
+    public abstract float area();
 
 }
