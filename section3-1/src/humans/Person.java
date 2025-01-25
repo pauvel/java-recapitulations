@@ -5,9 +5,16 @@ public class Person {
     private final String personName;
     private final int age;
 
-    Person(String personName, int age){
+    public static int numberOfPersons;
+
+    public Person(String personName, int age){
         this.personName = personName;
         this.age = age;
+        numberOfPersons++;
+    }
+
+    public int numberOfPersons(){
+        return numberOfPersons;
     }
 
     public void eat(){
