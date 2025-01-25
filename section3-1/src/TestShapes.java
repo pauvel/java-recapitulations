@@ -16,5 +16,8 @@ public class TestShapes {
 
         test.calculate(square);
         test.calculate(circle);
+
+        square.draw();
+        circle.draw();
     }
 }

@@ -1,6 +1,8 @@
 package geometric_shapes;
 
-public class Square extends Shape{
+import interfaces.Drawable;
+
+public class Square extends Shape implements Drawable {
     private final float side;
 
     public Square(float side, String color){
@@ -15,5 +17,8 @@ public class Square extends Shape{
     }
 
 
-
+    @Override
+    public void draw() {
+        System.out.println("Drawing square");
+    }
 }
