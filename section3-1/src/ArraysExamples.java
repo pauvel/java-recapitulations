@@ -19,6 +19,18 @@ public class ArraysExamples {
             }
         }
 
+        int counter = 0;
+        while(counter < arr.length){
+            // 1, 2, 3
+            // When we reach the 3rd record counter value will be 4. (Don't move counter++ to the first line).
+            System.out.println("Position = "+ counter + " Value = " + arr[counter]);
+            counter++;
+        }
+
+        for(int num : arr){
+            System.out.println("Foreach = " + num);
+        }
+
     }
 
 }
