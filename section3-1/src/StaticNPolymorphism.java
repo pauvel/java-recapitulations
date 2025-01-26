@@ -14,6 +14,13 @@ class B extends A {
 }
 
 public class StaticNPolymorphism {
+    static {
+        System.out.println("This is a static block");
+    }
+
+    static {
+        System.out.println("This is a static block # 2");
+    }
     public static void main(String[] args) {
         System.out.println("StaticNPolymorphism");
         A a = new B();
