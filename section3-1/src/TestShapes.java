@@ -34,7 +34,7 @@ public class TestShapes {
 
         System.out.println("Number of persons instanciated = " + Person.numberOfPersons);
         Person person1 = new Person("DOKI", 25);
-        Person person2 = new Person("DUKO", 38);
+        Person person2 = new Person(  "DUKO", 38);
         System.out.println("Number of persons instanciated = " + Person.numberOfPersons);
 
 //        System.out.println("No of persons instanciated = " + person1.numberOfPersons());
