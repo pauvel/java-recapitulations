@@ -2,6 +2,11 @@ package humans;
 
 public class Person {
 
+    {
+        System.out.println("Executed anonymous block.");
+        numberOfPersons++;
+    }
+
     private final String personName;
     private final int age;
 
@@ -10,7 +15,7 @@ public class Person {
     public Person(String personName, int age){
         this.personName = personName;
         this.age = age;
-        numberOfPersons++;
+//        numberOfPersons++;
     }
 
     public int numberOfPersons(){
