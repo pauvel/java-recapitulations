@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class MultidimensionalArrays {
+
     public static void main(String[] args) {
         // We've declared a 2x2 two-dimensional array (2 rows and 2 columns).
         // Each cell of the array stores an integer value.
@@ -23,5 +24,26 @@ public class MultidimensionalArrays {
         }
 
 
+        // Explicit
+        String[] names = new String[2];
+        names[0] = "Paul";
+        names[1] = "Willy";
+
+        // Implicit
+        char[] letters = {'q','w','v'};
+
+        // Anonymous
+//        float[] salaries = new float[]{1299.22f, 3872.34f, 2548.321f};
+        // This is the anonymous way
+
+        printArr(new float[]{1299.22f, 3872.34f, 2548.321f});
+
+
+    }
+
+    static void printArr(float[] a){
+        for(float item : a){
+            System.out.println("Salary = " + item);
+        }
     }
 }
