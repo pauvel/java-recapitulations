@@ -1,7 +1,7 @@
 package enums;
 
 public enum PopcornFlavors {
-    BBQ("barbique", 2.43f),
+    BBQ("barbeque", 2.43f),
     CHEETOS("Cheese cheetos", 3.12f),
     CARAMEL("candy", 1.40f);
 
