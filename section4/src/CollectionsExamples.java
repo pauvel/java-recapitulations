@@ -87,6 +87,15 @@ public class CollectionsExamples {
         }
 
 
+        // Comparable with TreeSet
+
+        TreeSet<Dog> dogs = new TreeSet<>(Comparator.comparing(p -> p.getName()));
+
+        dogs.add(new Dog("Terry"));
+
+        for(Dog d : dogs){
+            System.out.println(d.getName());
+        }
 
 
     }
