@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 
@@ -43,6 +44,14 @@ public class CollectionsExamples {
 
         // HashSet
 
+        HashSet<String> names = new HashSet<>();
+
+        names.add("Polska");
+        names.add("Polska");
+        names.add("Juan");
+        names.add("Pepe");
+
+        System.out.println(names);
 
 
 
