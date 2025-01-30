@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 
 public class CollectionsExamples {
 
@@ -30,7 +31,17 @@ public class CollectionsExamples {
         System.out.println(linkedLst.size() +"nd= "+linkedLst.getLast());
 
 
+        // priority queue.
 
+        PriorityQueue<Integer> pQueue = new PriorityQueue<>();
+        pQueue.offer(1000);
+        pQueue.offer(500);
+        pQueue.offer(100);
+        pQueue.offer(800);
+
+        System.out.println(pQueue);
+
+        // HashSet
 
 
 
