@@ -73,6 +73,15 @@ public class CollectionsExamples {
         System.out.println(things);
 
 
+        // HashMap
+
+        Map<String, String> map = new HashMap<>();
+        map.put("Chair", "A chair stands on four legs.");
+        map.put("Duck", "A duck have two legs.");
+
+        for(String key : map.keySet()){
+            System.out.println(key + " :: " + map.get(key));
+        }
 
 
 
