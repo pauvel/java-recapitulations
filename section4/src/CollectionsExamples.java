@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class CollectionsExamples {
 
@@ -52,6 +49,31 @@ public class CollectionsExamples {
         names.add("Pepe");
 
         System.out.println(names);
+
+
+        // TreeSet
+
+        TreeSet<Character> letters = new TreeSet<>();
+
+        letters.add('b');
+        letters.add('c');
+        letters.add('a');
+
+        System.out.println(letters);
+
+        // The output is sorted by the length of the strings.
+        TreeSet<String> things = new TreeSet<>(Comparator.comparingInt(String::length));
+
+        things.add("chair");
+        things.add("Cup");
+        things.add("Car");
+        things.add("Wheel");
+        things.add("O");
+
+        System.out.println(things);
+
+
+
 
 
 
