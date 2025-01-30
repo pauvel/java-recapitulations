@@ -74,13 +74,16 @@ public class CollectionsExamples {
 
 
         // HashMap
-
         Map<String, String> map = new HashMap<>();
         map.put("Chair", "A chair stands on four legs.");
         map.put("Duck", "A duck have two legs.");
 
         for(String key : map.keySet()){
             System.out.println(key + " :: " + map.get(key));
+        }
+
+        for(Map.Entry<String, String> entry : map.entrySet()){
+            System.out.println(entry.getKey() + ">>" + entry.getValue());
         }
 
 
