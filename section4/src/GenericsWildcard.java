@@ -3,7 +3,7 @@ import java.util.List;
 
 public class GenericsWildcard {
 
-    static Double sum(List<Number> nums){
+    static Double sum(List< ? extends Number> nums){
 
         Double s = 0.0;
         for(Number element : nums){
