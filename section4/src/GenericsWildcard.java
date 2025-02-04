@@ -23,7 +23,7 @@ public class GenericsWildcard {
                         new Double(91.33)
                 )
         );
-
+        System.out.println("Sum = " + x);
         System.out.println("Sum = " + x);
     }
 
